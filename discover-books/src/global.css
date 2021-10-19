@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "SfProDisplay";
+  src: local("SfProDisplay"),
+    url("./fonts/FontsFree-Net-SFProDisplay-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: SfProDisplay;
+}
