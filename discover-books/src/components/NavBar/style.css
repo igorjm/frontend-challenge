@@ -1,0 +1,28 @@
+.navMainContainer {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 9vh;
+  left: 0;
+  bottom: 0;
+  background: var(--background);
+}
+
+.navIconsContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.iconContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iconText {
+  margin-top: 0.5rem;
+  font-size: 0.65rem;
+}
